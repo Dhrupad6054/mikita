@@ -5,14 +5,15 @@ import Leftsidebar from "./Components/Leftsidebar"
 import Main from "./Components/Main"
 import Rightsidebar from "./Components/Rightsidebar"
 import Footer from "./Components/Footer"
+import './index.css';
 
 import reportWebVitals from "./reportWebVitals";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <div className='Main'>
-   
+  // <div className='Main'>
+   <>
     <Header />
     <section>
     <Leftsidebar />
@@ -20,8 +21,8 @@ root.render(
     </section>    
     {/* <Rightsidebar /> */}
     <Footer />
-    
-  </div>
+    </>
+  // </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
