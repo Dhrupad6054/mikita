@@ -6,22 +6,38 @@ import Main from "./Components/Main"
 import Rightsidebar from "./Components/Rightsidebar"
 import Footer from "./Components/Footer"
 import './index.css';
+import Employee from "./Employee"
+import Client from "./Client"
+import App from "./App"
+import Classupdatederived from "./Components/Update/CLassupdatederived";
+import Shouldupdate from "./Components/Update/Shouldupadte";
+import Componentdidupdate from "./Components/Update/Componentdidupdate";
+import Container from "./Components/Container";
 
 import reportWebVitals from "./reportWebVitals";
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <div className='Main'>
    <>
-    <Header />
-    <section>
+   {/* <Employee/>
+   <Client/>
+    {/* <Header /> */}
+    {/* <section>
     <Leftsidebar />
     <Main />
     </section>    
-    {/* <Rightsidebar /> */}
-    <Footer />
-    </>
+    <Rightsidebar /> */}
+    {/* <Footer /> */}
+    {/* <App/> */}
+   {/* < Classupdatederived oldName = "Vruta"/> */}
+   {/* <Shouldupdate/>
+   <Componentdidupdate username = "mikita12" /> */}
+   <Container/>
+    </> 
   // </div>
 );
 
